@@ -1,0 +1,24 @@
+# Thư mục phụ thuộc (phần mềm/thư viện cài thêm)
+node_modules/
+.pnpm-store/
+
+# File cấu hình biến môi trường (chứa mật khẩu/API key)
+# .env
+# .env.local
+# .env.production
+
+# Thư mục build / xuất bản
+dist/
+build/
+.next/
+out/
+
+# Log lỗi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Thư mục riêng của Editor/OS
+.vscode/
+.idea/
+.DS_Store
